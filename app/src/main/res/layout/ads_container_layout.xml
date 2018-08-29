@@ -1,0 +1,11 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ads_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.jennie.eventreporter.EventsFragment">
+
+</FrameLayout>
+    <!--FrameLayout是个空白的layout,相比其他layout,他的performance是非常低的，因为他不提供位置的自定义-->
+    <!--FrameLayout比较节省资源，因为不需要位置信息-->

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EventReporter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <!--广告,有个id,看能不能从后端（firebase or Google cloud）读取对应ID的相关信息-->
+</resources>
+
+
+    <!--strings: 存string的别名(比如：banner_ad_unit_id)，主文件就可以调用他--><!--为什么要定义在这里？在主文件中调用是R.string.banner_ad_unit_id找到对应的文件--><!--支持多语言，如果我要支持中文的话，"ca-app-pub-3940256099942544/6300978111"这段改成中文就好了，也就是说如果在中国的话调用中国的xml--><!--这样多语言可以和主逻辑分开-->
+

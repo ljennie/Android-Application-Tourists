@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
+
+<!--mipmap: 针对不同的resulation pictures-->
+<!--mipmap_hdpi: hdpi是针对不同resultaion device, 针对resultaion不同用不同的mipmap-->
+<!--也就是针对不同的机器会有不同的图片适合该机器的大小-->
+
+<!--对界面自定义化的图片存在drawable里，对image的一些小的修饰，不是对界面进行描绘，是一些小的部分-->
